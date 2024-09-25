@@ -1,61 +1,112 @@
 <!DOCTYPE html>
-<html>
-   <head>    
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="VLN-CE using ackermann steered robot">
-        <title>VLN-CE using ackermann steered robot</title>
-        <!-- <link rel="stylesheet" href="style.css"> -->
-
-   </head>
-   <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project Webpage">
+    <title>Sim-to-Real Transfer of VLN in Continuous Environments 
+        Using an Ackermann-Steered Mobile Robot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
     <header>
-        <h1>Your Name</h1>
-        <p>Researcher in [Field of Study]</p>
-        <nav>
-            <ul>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Sim-to-Real Transfer of VLN in Continuous Environments 
+            Using an Ackermann-Steered Mobile Robot</h1>
+        <p>A brief description or tagline for your project.</p>
     </header>
 
-    <section id="intro">
-        <h2>About Me</h2>
-        <p>I am a researcher focusing on [your field of study]. My work involves [a short description of your research focus].</p>
-    </section>
-
-    <section id="research">
-        <h2>Research Projects</h2>
-        <div class="project">
-            <h3>Project Title 1</h3>
-            <p>Description of Project 1. Include the main objectives, methods, and results.</p>
-        </div>
-        <div class="project">
-            <h3>Project Title 2</h3>
-            <p>Description of Project 2. Highlight key findings and achievements.</p>
-        </div>
-    </section>
-
-    <!-- <section id="publications">
-        <h2>Publications</h2>
+    <!-- Contributors Section -->
+    <section id="contributors">
+        <h2>Contributors</h2>
         <ul>
-            <li><a href="paper1.pdf">Paper Title 1</a>, Journal/Conference, Year.</li>
-            <li><a href="paper2.pdf">Paper Title 2</a>, Journal/Conference, Year.</li>
+            <li>Student 1</li>
+            <li>Student 2</li>
+            <li>Student 3</li>
+            <li>Student 4</li>
+            <li>Supervisor 1</li>
+            <li>Supervisor 2</li>
         </ul>
-    </section> -->
+    </section>
 
-    <!-- <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
-    </section> -->
+    <!-- Links Section -->
+    <section id="links">
+        <h2>Project Links</h2>
+        <div class="links">
+            <a href="https://github.com/yourproject" target="_blank" class="button">GitHub Code</a>
+            <a href="https://youtube.com/yourvideo" target="_blank" class="button">Project Video</a>
+            <a href="https://researchpaperlink.com" target="_blank" class="button">Research Paper</a>
+        </div>
+    </section>
 
+    <!-- 3-Minute Video Section -->
+    <section id="video">
+        <h2>Project Overview Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" title="Project Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Abstract Section -->
+    <section id="abstract">
+        <h2>Project Abstract</h2>
+        <p>
+        Vision-Language Navigation (VLN) enables robots
+        to navigate through environments using natural language instructions, 
+        making human-robot interaction intuitive. Traditional VLN models often 
+        rely on navigation graphs, 360-degree
+        views, and perfect localization which pose significant challenges
+        when adapting these models to real-world settings. This work
+        addresses these limitations by performing a simulation-to-real
+        domain shift of a VLN approach that operates in continuous environments
+        without requiring navigation graphs or panoramic
+        views. The proposed system integrates vision-language models
+        that align visual inputs and linguistic instructions within a
+        shared embedding space, facilitating natural language-driven
+        navigation. We employ a Cross-Modal Attention (CMA) based
+        architecture trained on an existing dataset in a simulated
+        environment and fine-tune it using real-world data collected
+        from a custom-built Ackermann-steered robot equipped with
+        a camera and a LiDAR sensor. By utilising linear photometric
+        adjustments and fine-tuning on a limited number of episodes,
+        our model successfully adapts to real-world environments,
+        achieving effective navigation while running offline on dedicated 
+        hardware. Experimental results, evaluated using Success
+        weighted by Path Length (SPL) and Normalized Dynamic Time
+        Warping (nDTW) metrics, demonstrate the robustness and
+        adaptability of our approach.
+        </p>
+    </section>
+
+    <!-- Approach Section -->
+    <section id="approach">
+        <h2>Project Approach</h2>
+        <h3>System Architecture</h3>
+        <!-- <p>Description of the system architecture, outlining key components and how they interact.</p> -->
+        <img src="media/Full-Arch.png" alt="System Architecture">
+
+        <h3>Experiments</h3>
+        <p>Details about the experiments conducted, including methodology, datasets used, and evaluation metrics. Include key findings here as well.</p>
+    </section>
+
+    <!-- Contributors Images Section -->
+    <section id="images">
+        <h2>Contributors</h2>
+        <div class="image-gallery">
+            <img src="student1.jpg" alt="Student 1">
+            <img src="student2.jpg" alt="Student 2">
+            <img src="student3.jpg" alt="Student 3">
+            <img src="student4.jpg" alt="Student 4">
+            <img src="supervisor1.jpg" alt="Supervisor 1">
+            <img src="supervisor2.jpg" alt="Supervisor 2">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Sim-to-Real Transfer of VLN in Continuous Environments 
+            Using an Ackermann-Steered Mobile Robot. All rights reserved.
+        </p>
     </footer>
 
     <script src="script.js"></script>
-   </body>
+</body>
 </html>
