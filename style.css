@@ -84,3 +84,12 @@ iframe {
     margin: 0 auto;
     border: none;
 }
+
+/* For framing and zooming in on the image */
+.zoomed-image {
+    width: 150px;  /* Size of the image in the gallery */
+    height: 150px; /* Size of the image in the gallery */
+    object-fit: cover; /* Ensures the image fills the box but is cropped if necessary */
+    object-position: center; /* Centers the image in the frame */
+    border-radius: 50%; /* Keeps the circular shape */
+}
